@@ -179,6 +179,20 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+@media (max-width: 500px) {
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+  .space-image {
+    display: flex;
+    flex-direction: column;
+  }
+  .space-image img {
+    width: 80%;
+    height: 70%;
+  }
+}
 .top {
   display: flex;
   justify-content: center;
