@@ -1,1 +1,50 @@
 // Mixins Here
+
+.navigation (@justify, @align, @direction){
+    display: flex;
+    justify-content: @justify;
+    align-items: @align;
+    flex-direction: @direction;
+    padding-bottom: 2%;
+    width: 100%;
+    height: auto;
+}
+
+.header-style {
+    padding-top: 3%;
+    width: auto;
+    height: 15vh;
+    color: @header-font-color;
+    border: @main-border-color;
+}
+
+
+.name-style {
+    font-size: 3rem;
+    color: @header-font-color;
+    height: auto;
+    padding-bottom: 2%;
+}
+
+
+.nav-font {
+    font-size: 2rem;
+    text-decoration: none;
+    color: @nav-font;
+    justify-content: space-evenly;
+}
+
+.button (@width, @height, @color) {
+    width: @width;
+    height: @height;
+    color: @color;
+    background: @bg;
+    border: @border;
+    border-radius: 0.5rem;
+    align-items: center;
+    padding-top: 4%;
+    padding-left: 5%;
+    font-size: 2rem;
+    justify-content: center;
+}
+
