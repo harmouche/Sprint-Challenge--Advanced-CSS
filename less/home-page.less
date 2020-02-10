@@ -82,33 +82,42 @@
 
 @media @phone {
   
-  // section {
-  //   display: flex;
-  //   flex-direction: column;
-  // }
+.sky {
+  display: none;
+}
 
-  // .space-image {
-  //   display: flex;
-  //   flex-direction: column;
-  // }
+.launch  {
+  display: none;
+}
 
-  //   img {
-  //     width: 80%;
-  //     height: 70%;
-  //   }
-  // }
+.header-image{
+  width: 100%;
+}
 
+.space-images {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 45vh;
 
-  .space-images {
-    display: flex;
-    flex-wrap: wrap;
+  .blast {
     width: 100%;
-
-    img {
-      width: 70%;
-      margin: 70%;
-      border-radius: 20px;
-      height: 100%;
-    }
+    margin: 20px 2.5%;
+    border-radius: 20px;
+    height: 100%;
   }
+}
+
+.walk{
+  width: 100%;
+  flex-direction: column-reverse;
+}
+.walk-img {
+  width: 100%;
+  height: 20vh;
+}
+
+.btn {
+  width: 80%;
+}
 }
